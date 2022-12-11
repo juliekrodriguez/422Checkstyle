@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE checkstyle-metadata PUBLIC
+"-//eclipse-cs//DTD Check Metadata 1.1//EN"
+"http://eclipse-cs.sourceforge.net/dtds/checkstyle-metadata_1_1.dtd">
+<checkstyle-metadata>
+    <rule-group-metadata name="422CheckProject"  priority="1600">
+        <description>%MasterCheck.desc</description>
+
+        <rule-metadata name="%checkstyle.name" internal-name="checkstyle" parent="TreeWalker">
+            <alternative-name internal-name="checkstylePro.checkstyle" />
+            <description>%checkstyle.desc</description>
+        </rule-metadata>
+        
+        <rule-metadata name="%LoopingCheck.name" internal-name="LoopingCheck" parent="TreeWalker">
+            <alternative-name internal-name="checkstylePro.LoopingCheck" />
+            <description>%LoopCheck.desc</description>
+        </rule-metadata>
+        
+        <rule-metadata name="%CastingCheck.name" internal-name="CastingCheck" parent="TreeWalker">
+            <alternative-name internal-name="checkstylePro.CastingCheck" />
+            <description>%CastingCheck.desc</description>
+        </rule-metadata>
+        
+        <rule-metadata name="%FirstCheck.name" internal-name="FirstCheck" parent="TreeWalker">
+            <alternative-name internal-name="checkstylePro.FirstCheck" />
+            <description>%FirstCheck.desc</description>
+        </rule-metadata>
+        
+        <rule-metadata name="%CommentCheck.name" internal-name="CommentCheck" parent="TreeWalker">
+            <alternative-name internal-name="checkstylePro.CommentCheck" />
+            <description>%CommentCheck.desc</description>
+        </rule-metadata>
+        
+    </rule-group-metadata>
+</checkstyle-metadata>

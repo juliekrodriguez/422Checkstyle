@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE checkstyle-metadata PUBLIC
+"-//eclipse-cs//DTD Check Metadata 1.1//EN"
+"http://eclipse-cs.sourceforge.net/dtds/checkstyle-metadata_1_1.dtd">
+<checkstyle-metadata>
+    <rule-group-metadata name="Structural Metrics Checks"  priority="1601">
+        <description>%StructuralMetricsChecks.desc</description>
+        
+        <rule-metadata name="%ExternalMetReferenceCheck.name" internal-name="ExternalMetReferenceCheck" parent="TreeWalker">
+            <alternative-name internal-name="ExternalMetReferenceCheck" />
+            <description>%ExternalMetReferenceCheck.desc</description>
+        </rule-metadata>
+        
+        <rule-metadata name="%HOperandCheck.name" internal-name="HOperandCheck" parent="TreeWalker">
+            <alternative-name internal-name="HOperandCheck" />
+            <description>%HOperandCheck.desc</description>
+        </rule-metadata>
+        
+        <rule-metadata name="%HOperatorCheck.name" internal-name="HOperatorCheck" parent="TreeWalker">
+            <alternative-name internal-name="HOperatorCheck" />
+            <description>%HOperatorCheck.desc</description>
+        </rule-metadata>
+        
+        <rule-metadata name="%HLengthCheck.name" internal-name="HLengthCheck" parent="TreeWalker">
+            <alternative-name internal-name="HLengthCheck" />
+            <description>%HLengthCheck.desc</description>
+        </rule-metadata>
+        
+        <rule-metadata name="%MaintainabilityIndexCheck.name" internal-name="MaintainabilityIndexCheck" parent="TreeWalker">
+            <alternative-name internal-name="MaintainabilityIndexCheck" />
+            <description>%MaintainabilityIndexCheck.desc</description>
+        </rule-metadata>
+        
+    </rule-group-metadata>
+</checkstyle-metadata>
