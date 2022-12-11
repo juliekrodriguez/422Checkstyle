@@ -10,7 +10,7 @@ public class BBtest {
 	{
 		a = 100;							
 		b = 20;								
-		strArr = new String[5];				
+		strArr = new String[5];				//gittest
 		y = false;								
 	}
 	
